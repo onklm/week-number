@@ -1,4 +1,4 @@
-name: Continuous Deployment
+name: Create Release and Publish
 
 on:
   push:
