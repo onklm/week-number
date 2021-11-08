@@ -1,6 +1,6 @@
 {
   "name": "@mrako/week-number",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "author": "Marko Klemetti",
   "license": "MIT",
   "repository": {
@@ -29,7 +29,9 @@
     "test": "test"
   },
   "devDependencies": {
+    "@semantic-release/release-notes-generator": "^10.0.2",
     "eslint": "^7.19.0",
-    "jest": "^27.3.1"
+    "jest": "^27.3.1",
+    "standard-version": "^9.3.2"
   }
 }
