@@ -1,0 +1,34 @@
+{
+  "name": "@mrako/week-number",
+  "version": "0.0.1",
+  "author": "Marko Klemetti",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mrako/week-number"
+  },
+  "bin": {
+    "week-number": "./cli.js"
+  },
+  "files": [
+    "cli.js",
+    "src/weeknumber.js"
+  ],
+  "scripts": {
+    "patch-release": "npm version patch && npm publish && git push --follow-tags",
+    "test": "jest",
+    "lint": "eslint . src test"
+  },
+  "dependencies": {
+    "yargs": "^17.2.1"
+  },
+  "description": "This tool displays the current week.",
+  "main": "cli.js",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {
+    "eslint": "^7.19.0",
+    "jest": "^27.3.1"
+  }
+}
