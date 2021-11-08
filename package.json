@@ -16,7 +16,6 @@
   ],
   "scripts": {
     "release": "./node_modules/.bin/standard-version && git push --follow-tags",
-    "publish": "npm publish --access public",
     "test": "jest",
     "lint": "eslint . src test"
   },
