@@ -1,6 +1,6 @@
 {
   "name": "@mrako/week-number",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": "Marko Klemetti",
   "license": "MIT",
   "repository": {
@@ -15,7 +15,7 @@
     "src/weeknumber.js"
   ],
   "scripts": {
-    "patch-release": "npm version patch && npm publish --access public && git push --follow-tags",
+    "publish": "npm publish --access public",
     "test": "jest",
     "lint": "eslint . src test"
   },
