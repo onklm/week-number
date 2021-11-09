@@ -8,10 +8,10 @@
     "url": "https://github.com/mrako/week-number"
   },
   "bin": {
-    "week-number": "./index.js"
+    "week-number": "./cli.js"
   },
   "files": [
-    "index.js",
+    "cli.js",
     "src/weeknumber.js"
   ],
   "source": "src/index.html",
