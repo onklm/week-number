@@ -16,14 +16,16 @@
   ],
   "source": "src/index.html",
   "scripts": {
-    "release": "./node_modules/.bin/standard-version && git push --follow-tags",
-    "start": "parcel",
     "build": "parcel build --dist-dir public",
+    "heroku-postbuild": "parcel build --dist-dir public",
+    "start": "parcel",
     "test": "jest",
-    "lint": "eslint . src test"
+    "lint": "eslint . src test",
+    "release": "./node_modules/.bin/standard-version && git push --follow-tags"
   },
   "dependencies": {
-    "yargs": "^17.2.1"
+    "yargs": "^17.2.1",
+    "parcel": "^2.0.1"
   },
   "description": "This tool displays the current week.",
   "directories": {
@@ -33,7 +35,6 @@
     "@semantic-release/release-notes-generator": "^10.0.2",
     "eslint": "^7.19.0",
     "jest": "^27.3.1",
-    "parcel": "^2.0.1",
     "standard-version": "^9.3.2"
   }
 }
