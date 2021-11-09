@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.12](https://github.com/mrako/week-number/compare/v0.0.11...v0.0.12) (2021-11-09)
+
+
+### Bug Fixes
+
+* **npm:** update files and scripts to point to index ([fff3665](https://github.com/mrako/week-number/commit/fff3665613c9ef917c3b8b7c15df44243f8fa3c4))
+* **web:** change parcel deployment location ([70b13bf](https://github.com/mrako/week-number/commit/70b13bf1762bf6fae0f393e787713419bee2d7ee))
+
 ### [0.0.11](https://github.com/mrako/week-number/compare/v0.0.10...v0.0.11) (2021-11-09)
 
 
