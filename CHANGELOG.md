@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.14](https://github.com/mrako/week-number/compare/v0.0.13...v0.0.14) (2021-11-09)
+
+
+### Features
+
+* **app:** move parcel to dev dependencies ([594c5bd](https://github.com/mrako/week-number/commit/594c5bd726a11fd61e944b28c040e5869f33dff3))
+* **web:** change number to dodgerblue ([a1b2e73](https://github.com/mrako/week-number/commit/a1b2e73fb45d9c23d442c7455dcb002bff67cba0))
+* **web:** update color to slategray ([8a1e081](https://github.com/mrako/week-number/commit/8a1e081c4cc616178a2ccad7b44b252d697e3e69))
+
 ### [0.0.13](https://github.com/mrako/week-number/compare/v0.0.12...v0.0.13) (2021-11-09)
 
 
