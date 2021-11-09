@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.13](https://github.com/mrako/week-number/compare/v0.0.12...v0.0.13) (2021-11-09)
+
+
+### Features
+
+* **app:** rename script back to cli.js ([940a316](https://github.com/mrako/week-number/commit/940a31664293f2bca69c1e4e982e22c4c6a35bbc))
+* **web:** add deploying to heroku ([4f58c08](https://github.com/mrako/week-number/commit/4f58c089f8642187ef9ad8d7ca07749bbb8f86ab))
+* **web:** move parcel to dependencies ([6723d66](https://github.com/mrako/week-number/commit/6723d66c869af28b1c5fd5ced7383304d8f7f143))
+
 ### [0.0.12](https://github.com/mrako/week-number/compare/v0.0.11...v0.0.12) (2021-11-09)
 
 
