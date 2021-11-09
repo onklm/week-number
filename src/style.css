@@ -7,11 +7,11 @@ body{
   justify-content: center;
   align-items: center;
 
-  background: #ccc;
+  background: lightgray;
 }
 
 h1 {
-  color: #333;
+  color: dodgerblue;
   font-size: 40vh;
   font-family: sans-serif;
 }
