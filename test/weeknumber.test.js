@@ -6,4 +6,10 @@ describe('getNumberOfWeek', () => {
     
     expect(weeknumber.getNumberOfWeek(date)).toEqual(1);
   });
+
+  it('should return week 45 for 10th of November', async () => {
+    const date = new Date("11/10/2021");
+    
+    expect(weeknumber.getNumberOfWeek(date)).toEqual(45);
+  });
 });
