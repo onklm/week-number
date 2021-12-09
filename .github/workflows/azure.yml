@@ -12,7 +12,6 @@ jobs:
       uses: azure/login@v1
       with:
         creds: ${{ secrets.AZURE_CREDENTIALS }}
-    ALS }}
 
     - name: Deploy to Azure bucket
       uses: azure/CLI@v1
