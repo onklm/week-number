@@ -8,10 +8,14 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - uses: actions/setup-node@v1
+
     - name: Azure Login
       uses: azure/login@v1
       with:
         creds: ${{ secrets.AZURE_CREDENTIALS }}
+
+    - name: Build package
+      run: npm run build
 
     - name: Deploy to Azure bucket
       uses: azure/CLI@v1
