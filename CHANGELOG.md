@@ -2,6 +2,23 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.17](https://github.com/mrako/week-number/compare/v0.0.16...v0.0.17) (2021-12-10)
+
+
+### Features
+
+* **cd:** add azure deployment ([021d337](https://github.com/mrako/week-number/commit/021d337669aed06030393b1810c1cfb406e42d12))
+* **cd:** add building the deployment package ([d5515c7](https://github.com/mrako/week-number/commit/d5515c76ea29776654e6c1e384df83447bc38b22))
+* **cd:** add codeql scanning ([986bd20](https://github.com/mrako/week-number/commit/986bd2090329c7846fd179fa8a8016ef0428abd4))
+
+
+### Bug Fixes
+
+* **app:** fix week numbers ([31a5b0d](https://github.com/mrako/week-number/commit/31a5b0d1f48c9521e01fc4d469c08620658582b6))
+* **app:** fix week numbers ([99feed8](https://github.com/mrako/week-number/commit/99feed8ac2dba70c67892d07903998ea3b726791))
+* **app:** use correct week number for Thursdays ([24ba242](https://github.com/mrako/week-number/commit/24ba2428b588d74569e97bd49e234c9804b10135))
+* **test:** update Thursday time to 12 utc ([a8e7985](https://github.com/mrako/week-number/commit/a8e79859676957c524cb7af6326a8197c0f9f908))
+
 ### [0.0.16](https://github.com/mrako/week-number/compare/v0.0.15...v0.0.16) (2021-11-10)
 
 
