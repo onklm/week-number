@@ -14,7 +14,7 @@ describe('getNumberOfWeek', () => {
   });
 
   it('should return correct week for Thursday', async () => {
-    const date = new Date("2021-12-09T00:00:00.000Z");
+    const date = new Date("2021-12-09T12:00:00.000");
 
     expect(weeknumber.getNumberOfWeek(date)).toEqual(49);
   });
