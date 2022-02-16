@@ -18,7 +18,7 @@
   "scripts": {
     "build": "parcel build --dist-dir public",
     "heroku-postbuild": "parcel build --dist-dir public",
-    "start": "parcel",
+    "start": "./node_modules/.bin/parcel",
     "test": "jest",
     "lint": "eslint . src test",
     "release": "./node_modules/.bin/standard-version && git push --follow-tags"
