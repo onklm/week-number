@@ -16,7 +16,7 @@
   ],
   "source": "src/index.html",
   "scripts": {
-    "build": "parcel build --dist-dir public",
+    "build": "parcel build",
     "heroku-postbuild": "parcel build --dist-dir public",
     "start": "./node_modules/.bin/parcel",
     "test": "jest",
