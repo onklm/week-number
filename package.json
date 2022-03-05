@@ -16,25 +16,25 @@
   ],
   "source": "src/index.html",
   "scripts": {
-    "build": "parcel build",
-    "heroku-postbuild": "parcel build --dist-dir public",
-    "start": "./node_modules/.bin/parcel",
+    "build": "./node_modules/.bin/parcel build",
+    "heroku-postbuild": "./node_modules/.bin/parcel build --dist-dir public",
+    "start": "./node_modules/.bin/parcel src/index.html",
     "test": "jest",
     "lint": "eslint . src test",
     "release": "./node_modules/.bin/standard-version && git push --follow-tags"
   },
   "dependencies": {
-    "yargs": "^17.2.1"
+    "yargs": "^17.3.1"
   },
   "description": "This tool displays the current week.",
   "directories": {
     "test": "test"
   },
   "devDependencies": {
-    "@semantic-release/release-notes-generator": "^10.0.2",
-    "eslint": "^7.19.0",
-    "jest": "^27.3.1",
-    "parcel": "^2.0.1",
+    "@semantic-release/release-notes-generator": "^10.0.3",
+    "eslint": "^8.10.0",
+    "jest": "^27.5.1",
+    "parcel": "^2.3.2",
     "standard-version": "^9.3.2"
   }
 }
