@@ -1,6 +1,9 @@
-on: [push]
-
 name: Azure Deployment
+
+on:
+  push:
+    branches:
+      - azure
 
 env:
   NODE_VERSION: '10.x'
