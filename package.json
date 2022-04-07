@@ -24,7 +24,7 @@
     "release": "./node_modules/.bin/standard-version && git push --follow-tags"
   },
   "dependencies": {
-    "yargs": "^17.3.1"
+    "yargs": "^17.4.0"
   },
   "description": "This tool displays the current week.",
   "directories": {
@@ -32,9 +32,9 @@
   },
   "devDependencies": {
     "@semantic-release/release-notes-generator": "^10.0.3",
-    "eslint": "^8.10.0",
+    "eslint": "^8.12.0",
     "jest": "^27.5.1",
-    "parcel": "^2.3.2",
+    "parcel": "^2.4.1",
     "standard-version": "^9.3.2"
   }
 }
