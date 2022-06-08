@@ -2,6 +2,25 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.19](https://github.com/mrako/week-number/compare/v0.0.18...v0.0.19) (2022-06-08)
+
+
+### Features
+
+* **npm:** update packages ([e1c3d43](https://github.com/mrako/week-number/commit/e1c3d43b8d95474be784e8d5da3455e86a5e9d9e))
+
+
+### Bug Fixes
+
+* **app:** move build to dist ([e267dc2](https://github.com/mrako/week-number/commit/e267dc28cea2b38078ff22980055396914524edd))
+* **app:** update parcel location ([3f84cf2](https://github.com/mrako/week-number/commit/3f84cf2210dba8140c0bae3119c9165b633d92fc))
+* **cd:** remove codeql ([4a6eeba](https://github.com/mrako/week-number/commit/4a6eeba977d2c45783334e13c7faee6e185d2dca))
+* **cd:** remove heroku and azure from deployments ([c00aaf9](https://github.com/mrako/week-number/commit/c00aaf910d4381626723ae5533721bfd1a71f888))
+* **cd:** update node version ([04a05f4](https://github.com/mrako/week-number/commit/04a05f4ee143a667b0abedbb24eea9b50da4b7b6))
+* **cd:** update node version for cd ([0dedebd](https://github.com/mrako/week-number/commit/0dedebd805d32cfac483cd3b216cc8cb402cd1d9))
+* **deps:** update packages and fix audit findings ([9398f07](https://github.com/mrako/week-number/commit/9398f0752fbcd8b63d00b640e9c0b1d226c347ee))
+* **node:** fix packages ([2d67171](https://github.com/mrako/week-number/commit/2d67171531c4ff9c8aca444412947cc0016c801a))
+
 ### [0.0.18](https://github.com/mrako/week-number/compare/v0.0.16...v0.0.18) (2021-12-10)
 
 
