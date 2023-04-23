@@ -1,10 +1,13 @@
-const getNumberOfWeek = (dt) => {
-  const date = dt || new Date();
-  date.setHours(0, 0, 0, 0);
-  date.setDate(date.getDate() + 3 - (date.getDay() + 6) % 7);
-  const firstWeekOfYear = new Date(date.getFullYear(), 0, 4);
-  return 1 + Math.round(((date.getTime() - firstWeekOfYear.getTime()) / 86400000
-           - 3 + (firstWeekOfYear.getDay() + 6) % 7) / 7);
+const getWeekNumber = (date = new Date()) => {
+  const target = new Date(date.valueOf());
+  const dayNr = (date.getDay() + 6) % 7;
+  target.setDate(target.getDate() - dayNr + 3);
+  const firstThursday = target.valueOf();
+  target.setMonth(0, 1);
+  if (target.getDay() !== 4) {
+    target.setMonth(0, 1 + ((4 - target.getDay()) + 7) % 7);
+  }
+  return 1 + Math.ceil((firstThursday - target) / 604800000); // 604800000 = ms in a week
 };
 
-module.exports = { getNumberOfWeek };
+module.exports = { getWeekNumber };
