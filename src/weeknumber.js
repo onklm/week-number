@@ -5,6 +5,6 @@ const getWeekNumber = (date = new Date()) => {
   const diffInMilliseconds = thursday - firstThursday;
   const daysBetween = diffInMilliseconds / 86400000;
   return 1 + Math.floor(daysBetween / 7);
-}
+};
 
 module.exports = { getWeekNumber };
