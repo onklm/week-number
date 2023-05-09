@@ -1,13 +1,10 @@
 const getWeekNumber = (date = new Date()) => {
-  const target = new Date(date.valueOf());
-  const dayNr = (date.getDay() + 6) % 7;
-  target.setDate(target.getDate() - dayNr + 3);
-  const firstThursday = target.valueOf();
-  target.setMonth(0, 1);
-  if (target.getDay() !== 4) {
-    target.setMonth(0, 1 + ((4 - target.getDay()) + 7) % 7);
-  }
-  return 1 + Math.ceil((firstThursday - target) / 604800000); // 604800000 = ms in a week
-};
+  const thursday = new Date(date);
+  thursday.setDate(date.getDate() - ((date.getDay() + 6) % 7) + 3); // Get Thursday of the same week
+  const firstThursday = new Date(thursday.getFullYear(), 0, 4); // Get the first Thursday of the year
+  const diffInMilliseconds = thursday - firstThursday;
+  const daysBetween = diffInMilliseconds / 86400000;
+  return 1 + Math.floor(daysBetween / 7);
+}
 
 module.exports = { getWeekNumber };
