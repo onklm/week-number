@@ -20,7 +20,7 @@
     "heroku-postbuild": "./node_modules/.bin/parcel build --dist-dir public",
     "start": "./node_modules/.bin/parcel src/index.html",
     "test": "jest",
-    "lint": "eslint . src test",
+    "lint": "eslint *.js src test",
     "release": "./node_modules/.bin/standard-version && git push --follow-tags"
   },
   "dependencies": {
