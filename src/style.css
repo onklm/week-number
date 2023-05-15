@@ -1,5 +1,5 @@
 body{
-  font-family: 'Cabin', sans-serif;
+  font-family: sans-serif;
 
   overflow: hidden;
   position: absolute;
@@ -9,10 +9,10 @@ body{
   justify-content: center;
   align-items: center;
 
-  background: steelblue;
+  background: lightgray;
 }
 
 h1 {
-  color: azure;
+  color: slategray;
   font-size: 40vh;
 }
